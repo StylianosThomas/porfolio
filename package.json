@@ -1,21 +1,14 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Stylianos Thomas",
+  "license": "ISC",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.production.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +27,31 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-particles-js": "^3.4.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

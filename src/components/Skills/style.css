@@ -1,0 +1,17 @@
+#skills {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+#skills p {
+    display: inline block;
+}
+
+#iconContainer {
+    margin: 1em;
+}
+
+.iconStyle {
+    margin: 1rem;
+    font-size: 50px;
+}

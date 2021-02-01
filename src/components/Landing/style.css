@@ -1,0 +1,40 @@
+#landing{
+    height: 100vh;
+    width: 100vw;
+}
+
+#particle {
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+canvas{
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+#jumbo{
+    background:transparent;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -2em;
+}
+
+#jumbo h1 {
+    font-size: 4em;
+    text-shadow: -2px 2px 2px rgb(150, 150, 150);
+}
+
+#jumbo h3 {
+    font-size: 2.5em;
+    text-shadow: -2px 2px 2px rgba(150, 150, 150);
+}
+
+#jumbo hr {
+    border: 2px solid #DBB539;
+    opacity: 0.75;
+}

@@ -1,0 +1,8 @@
+#contact{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#contact .iconStyle:hover{
+    margin-bottom: -45px;
+}

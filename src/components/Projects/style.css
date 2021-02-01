@@ -1,0 +1,37 @@
+#projects{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.card {
+    max-width: 750px;
+    padding: 1em;
+    margin: 1.5em 2em;
+    box-shadow: -0.5em 0.5em 0.5em rgb(180 180 180);
+    transition: .2s;
+    text-align: justify;
+}
+
+.card:hover {
+    margin-left: 2.5em;
+    margin-right: 1.5em;
+    box-shadow: -0.7em 0.7em 0.7em rgb(180 180 180);
+}
+
+img {
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.projectButtons {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+}
+
+.card a:hover {
+    font-weight: bold;
+}
