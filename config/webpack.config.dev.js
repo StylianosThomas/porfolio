@@ -3,7 +3,7 @@ const config = require('./webpack.config.js');
 
 config.devServer = {
   historyApiFallback: true, //serve a previous page on a 404 error
-  contentBase: path.resolve('../src'), // location of the source code
+  contentBase: path.resolve('src'), // location of the source code
   port: 8080, // use this port for the server
   hot: true, // refresh the browser when changes are saved
   open: true, // open the project in the browser when the server starts
