@@ -1,0 +1,32 @@
+#navbar{
+    background: rgb(255,255,255, 0.5);
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+}
+
+#navbar a {
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+}
+
+#navbar a:hover {
+    color: rgb(250, 200, 0);
+}
+
+#myLogo{
+    height: 55px;
+}
+
+#myLogo:hover {
+    animation: logoSpin 2s infinite linear;
+}
+
+@-webkit-keyframes logoSpin {
+    0% { -webkit-transform:rotate(0deg); transform:rotate(0deg) }
+    100% { -webkit-transform:rotate(359deg); transform:rotate(359deg) }
+}
+
+@keyframes logoSpin {
+    0% { -webkit-transform:rotate(0deg); transform:rotate(0deg) }
+    100% { -webkit-transform:rotate(359deg); transform:rotate(359deg) }
+}

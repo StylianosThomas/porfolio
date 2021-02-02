@@ -8,7 +8,7 @@ class About extends Component {
             <div id="about" class="container">
                 <div id="title" >
                     <h2> About Me</h2>
-                    <hr/>
+                    <hr class="hrStyle"/>
                 </div>
                 <div class="row">
                     <h4 class="col-md-4"> I love to learn </h4>

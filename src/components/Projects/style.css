@@ -1,5 +1,5 @@
 #projects{
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 10vh;
 }
 
@@ -32,6 +32,9 @@ img {
     right: 1em;
 }
 
-.card a:hover {
+.card a {
     font-weight: bold;
+}
+.card a:hover {
+    color: rgb(250, 200, 0);
 }

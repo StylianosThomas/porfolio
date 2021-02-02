@@ -18,11 +18,12 @@ canvas{
 }
 
 #jumbo{
-    background:transparent;
+    background: rgb(255,255,255, 0.5);
     position: absolute;
     margin-top: 15%;
     margin-left: -2em;
 }
+
 
 #jumbo h1 {
     font-size: 4em;
@@ -35,6 +36,6 @@ canvas{
 }
 
 #jumbo hr {
-    border: 2px solid #DBB539;
+    border: 2px solid #fac800;
     opacity: 0.75;
 }

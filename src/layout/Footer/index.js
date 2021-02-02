@@ -5,7 +5,8 @@ import './style.css';
 const Footer = () => {
     return (
         <div id="footer" class="container-fluid">
-            &copy; Created by Stylianos Thomas | 2021
+            <hr/>
+            Developed by Stylianos Thomas | 2021
         </div>
     );
 };

@@ -48,7 +48,7 @@
     "line_linked": {
       "enable": true,
       "distance": 120,
-      "color": "#DBB539",
+      "color": "#fac800",
       "opacity": 0.8,
       "width": 1.5
     },
@@ -82,7 +82,7 @@
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 160,
         "line_linked": {
           "opacity": 1
         }

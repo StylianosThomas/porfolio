@@ -11,7 +11,7 @@ class Projects extends Component {
             <div id="projects" class="container">
                 <div id="title" >
                     <h2> Projects </h2>
-                    <hr />
+                    <hr class="hrStyle"/>
                     <p> Here is a list of a few of the projects I have been working on</p>
                     <div class="card-list">
                         <div class="card" >
