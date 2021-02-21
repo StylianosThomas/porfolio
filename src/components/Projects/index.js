@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './style.css';
+import medit from './medit.jpg';
 import habiTrack from './habiTrack.jpg';
 import legitTwitter from './legitTwitter.jpg';
 import overReactingQuiz from './overReactingQuiz.jpg';
@@ -14,6 +15,23 @@ class Projects extends Component {
                     <hr class="hrStyle"/>
                     <p> Here is a list of a few of the projects I have been working on</p>
                     <div class="card-list">
+                    <div class="card" >
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src={medit} class="card-img" alt="..."/>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h4 class="card-title"> MedIT </h4> <hr/>
+                                        <p class="card-text"> Our own healthcare app build around machine learning, artificial intelligence and bots. Register or log in to your account, ask for a diagnosis based on your symptoms or request advice on how to take care of your symptoms with our Medibot.</p>
+                                        <div class="projectButtons">
+                                            <a href="" target="_blank" class="btn"> Under Development </a>
+                                            <a href="https://github.com/PaolaDMadd/MedIT_com_app" target="_blank" class="btn"> Source Code </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card" >
                             <div class="row no-gutters">
                                 <div class="col-md-4">
@@ -56,7 +74,7 @@ class Projects extends Component {
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h4 class="card-title">HabiTrack</h4> <hr/>
-                                        <p class="card-text"> Do you find it hard to adopt new habits or be consistant on you existing ones? HabitTrack is just for you!</p>
+                                        <p class="card-text"> Do you find it hard to adopt new habits or be consistant on your existing ones? HabitTrack is just for you!</p>
                                         <div class="projectButtons">
                                             <a href="#projects" disabled class="btn"> Under developement </a>
                                             <a href="https://github.com/StylianosThomas/HabiTrack" target="_blank" class="btn"> Source Code </a>
@@ -66,8 +84,6 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         );
